@@ -14,6 +14,10 @@
 		FC5E4BDA290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BD9290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift */; };
 		FC5E4BE4290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BE3290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift */; };
 		FC5E4BE6290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BE5290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift */; };
+		FC5E4BF3290BA01800FAB992 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BF2290BA01800FAB992 /* Model.swift */; };
+		FC5E4BF7290BA0B000FAB992 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BF6290BA0B000FAB992 /* ViewModel.swift */; };
+		FC5E4BF9290BCA6A00FAB992 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BF8290BCA6A00FAB992 /* DetailView.swift */; };
+		FC5E4BFB290BCCC700FAB992 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BFA290BCCC700FAB992 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		FC5E4BDF290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleConnpassAPI-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5E4BE3290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConnpassAPI_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FC5E4BE5290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC5E4BF2290BA01800FAB992 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FC5E4BF6290BA0B000FAB992 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FC5E4BF8290BCA6A00FAB992 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FC5E4BFA290BCCC700FAB992 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				FC5E4BC8290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift */,
+				FC5E4BF2290BA01800FAB992 /* Model.swift */,
+				FC5E4BF6290BA0B000FAB992 /* ViewModel.swift */,
 				FC5E4BCA290B728300FAB992 /* ContentView.swift */,
+				FC5E4BFA290BCCC700FAB992 /* RowView.swift */,
+				FC5E4BF8290BCA6A00FAB992 /* DetailView.swift */,
 				FC5E4BCC290B728400FAB992 /* Assets.xcassets */,
 				FC5E4BCE290B728400FAB992 /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5E4BF3290BA01800FAB992 /* Model.swift in Sources */,
+				FC5E4BFB290BCCC700FAB992 /* RowView.swift in Sources */,
 				FC5E4BCB290B728300FAB992 /* ContentView.swift in Sources */,
+				FC5E4BF7290BA0B000FAB992 /* ViewModel.swift in Sources */,
+				FC5E4BF9290BCA6A00FAB992 /* DetailView.swift in Sources */,
 				FC5E4BC9290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
