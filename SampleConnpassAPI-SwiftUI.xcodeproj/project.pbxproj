@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5E4BC9290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BC8290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift */; };
+		FC5E4BCB290B728300FAB992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BCA290B728300FAB992 /* ContentView.swift */; };
+		FC5E4BCD290B728400FAB992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5E4BCC290B728400FAB992 /* Assets.xcassets */; };
+		FC5E4BD0290B728400FAB992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5E4BCF290B728400FAB992 /* Preview Assets.xcassets */; };
+		FC5E4BDA290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BD9290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift */; };
+		FC5E4BE4290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BE3290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift */; };
+		FC5E4BE6290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BE5290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5E4BD6290B728400FAB992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5E4BBD290B728300FAB992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5E4BC4290B728300FAB992;
+			remoteInfo = "SampleConnpassAPI-SwiftUI";
+		};
+		FC5E4BE0290B728400FAB992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5E4BBD290B728300FAB992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5E4BC4290B728300FAB992;
+			remoteInfo = "SampleConnpassAPI-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC5E4BC5290B728300FAB992 /* SampleConnpassAPI-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleConnpassAPI-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5E4BC8290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConnpassAPI_SwiftUIApp.swift; sourceTree = "<group>"; };
+		FC5E4BCA290B728300FAB992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC5E4BCC290B728400FAB992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5E4BCF290B728400FAB992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC5E4BD5290B728400FAB992 /* SampleConnpassAPI-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleConnpassAPI-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5E4BD9290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConnpassAPI_SwiftUITests.swift; sourceTree = "<group>"; };
+		FC5E4BDF290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleConnpassAPI-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5E4BE3290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConnpassAPI_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		FC5E4BE5290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5E4BC2290B728300FAB992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5E4BD2290B728400FAB992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5E4BDC290B728400FAB992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5E4BBC290B728300FAB992 = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BC7290B728300FAB992 /* SampleConnpassAPI-SwiftUI */,
+				FC5E4BD8290B728400FAB992 /* SampleConnpassAPI-SwiftUITests */,
+				FC5E4BE2290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests */,
+				FC5E4BC6290B728300FAB992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5E4BC6290B728300FAB992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BC5290B728300FAB992 /* SampleConnpassAPI-SwiftUI.app */,
+				FC5E4BD5290B728400FAB992 /* SampleConnpassAPI-SwiftUITests.xctest */,
+				FC5E4BDF290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5E4BC7290B728300FAB992 /* SampleConnpassAPI-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BC8290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift */,
+				FC5E4BCA290B728300FAB992 /* ContentView.swift */,
+				FC5E4BCC290B728400FAB992 /* Assets.xcassets */,
+				FC5E4BCE290B728400FAB992 /* Preview Content */,
+			);
+			path = "SampleConnpassAPI-SwiftUI";
+			sourceTree = "<group>";
+		};
+		FC5E4BCE290B728400FAB992 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BCF290B728400FAB992 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC5E4BD8290B728400FAB992 /* SampleConnpassAPI-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BD9290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift */,
+			);
+			path = "SampleConnpassAPI-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		FC5E4BE2290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BE3290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift */,
+				FC5E4BE5290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = "SampleConnpassAPI-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5E4BC4290B728300FAB992 /* SampleConnpassAPI-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5E4BE9290B728400FAB992 /* Build configuration list for PBXNativeTarget "SampleConnpassAPI-SwiftUI" */;
+			buildPhases = (
+				FC5E4BC1290B728300FAB992 /* Sources */,
+				FC5E4BC2290B728300FAB992 /* Frameworks */,
+				FC5E4BC3290B728300FAB992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleConnpassAPI-SwiftUI";
+			productName = "SampleConnpassAPI-SwiftUI";
+			productReference = FC5E4BC5290B728300FAB992 /* SampleConnpassAPI-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC5E4BD4290B728400FAB992 /* SampleConnpassAPI-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5E4BEC290B728400FAB992 /* Build configuration list for PBXNativeTarget "SampleConnpassAPI-SwiftUITests" */;
+			buildPhases = (
+				FC5E4BD1290B728400FAB992 /* Sources */,
+				FC5E4BD2290B728400FAB992 /* Frameworks */,
+				FC5E4BD3290B728400FAB992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5E4BD7290B728400FAB992 /* PBXTargetDependency */,
+			);
+			name = "SampleConnpassAPI-SwiftUITests";
+			productName = "SampleConnpassAPI-SwiftUITests";
+			productReference = FC5E4BD5290B728400FAB992 /* SampleConnpassAPI-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC5E4BDE290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5E4BEF290B728400FAB992 /* Build configuration list for PBXNativeTarget "SampleConnpassAPI-SwiftUIUITests" */;
+			buildPhases = (
+				FC5E4BDB290B728400FAB992 /* Sources */,
+				FC5E4BDC290B728400FAB992 /* Frameworks */,
+				FC5E4BDD290B728400FAB992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5E4BE1290B728400FAB992 /* PBXTargetDependency */,
+			);
+			name = "SampleConnpassAPI-SwiftUIUITests";
+			productName = "SampleConnpassAPI-SwiftUIUITests";
+			productReference = FC5E4BDF290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5E4BBD290B728300FAB992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FC5E4BC4290B728300FAB992 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					FC5E4BD4290B728400FAB992 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = FC5E4BC4290B728300FAB992;
+					};
+					FC5E4BDE290B728400FAB992 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = FC5E4BC4290B728300FAB992;
+					};
+				};
+			};
+			buildConfigurationList = FC5E4BC0290B728300FAB992 /* Build configuration list for PBXProject "SampleConnpassAPI-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC5E4BBC290B728300FAB992;
+			productRefGroup = FC5E4BC6290B728300FAB992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5E4BC4290B728300FAB992 /* SampleConnpassAPI-SwiftUI */,
+				FC5E4BD4290B728400FAB992 /* SampleConnpassAPI-SwiftUITests */,
+				FC5E4BDE290B728400FAB992 /* SampleConnpassAPI-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5E4BC3290B728300FAB992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5E4BD0290B728400FAB992 /* Preview Assets.xcassets in Resources */,
+				FC5E4BCD290B728400FAB992 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5E4BD3290B728400FAB992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5E4BDD290B728400FAB992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5E4BC1290B728300FAB992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5E4BCB290B728300FAB992 /* ContentView.swift in Sources */,
+				FC5E4BC9290B728300FAB992 /* SampleConnpassAPI_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5E4BD1290B728400FAB992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5E4BDA290B728400FAB992 /* SampleConnpassAPI_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5E4BDB290B728400FAB992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5E4BE6290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITestsLaunchTests.swift in Sources */,
+				FC5E4BE4290B728400FAB992 /* SampleConnpassAPI_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5E4BD7290B728400FAB992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5E4BC4290B728300FAB992 /* SampleConnpassAPI-SwiftUI */;
+			targetProxy = FC5E4BD6290B728400FAB992 /* PBXContainerItemProxy */;
+		};
+		FC5E4BE1290B728400FAB992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5E4BC4290B728300FAB992 /* SampleConnpassAPI-SwiftUI */;
+			targetProxy = FC5E4BE0290B728400FAB992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC5E4BE7290B728400FAB992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC5E4BE8290B728400FAB992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5E4BEA290B728400FAB992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleConnpassAPI-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = D2LPL47T23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanaka.SampleConnpassAPI-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5E4BEB290B728400FAB992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleConnpassAPI-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = D2LPL47T23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanaka.SampleConnpassAPI-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC5E4BED290B728400FAB992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2LPL47T23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanaka.SampleConnpassAPI-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleConnpassAPI-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleConnpassAPI-SwiftUI";
+			};
+			name = Debug;
+		};
+		FC5E4BEE290B728400FAB992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2LPL47T23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanaka.SampleConnpassAPI-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleConnpassAPI-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SampleConnpassAPI-SwiftUI";
+			};
+			name = Release;
+		};
+		FC5E4BF0290B728400FAB992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2LPL47T23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanaka.SampleConnpassAPI-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SampleConnpassAPI-SwiftUI";
+			};
+			name = Debug;
+		};
+		FC5E4BF1290B728400FAB992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2LPL47T23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanaka.SampleConnpassAPI-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SampleConnpassAPI-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5E4BC0290B728300FAB992 /* Build configuration list for PBXProject "SampleConnpassAPI-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5E4BE7290B728400FAB992 /* Debug */,
+				FC5E4BE8290B728400FAB992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5E4BE9290B728400FAB992 /* Build configuration list for PBXNativeTarget "SampleConnpassAPI-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5E4BEA290B728400FAB992 /* Debug */,
+				FC5E4BEB290B728400FAB992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5E4BEC290B728400FAB992 /* Build configuration list for PBXNativeTarget "SampleConnpassAPI-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5E4BED290B728400FAB992 /* Debug */,
+				FC5E4BEE290B728400FAB992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5E4BEF290B728400FAB992 /* Build configuration list for PBXNativeTarget "SampleConnpassAPI-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5E4BF0290B728400FAB992 /* Debug */,
+				FC5E4BF1290B728400FAB992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5E4BBD290B728300FAB992 /* Project object */;
+}
